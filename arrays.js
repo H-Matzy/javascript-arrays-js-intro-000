@@ -12,3 +12,7 @@ function addElementToEndOfArray(A,E){
   var Solution = [A,...E]
   return Solution
 }
+function destructivelyAddElementToEndOfArray(A,E){
+  E.Push(A)
+  return A
+}
