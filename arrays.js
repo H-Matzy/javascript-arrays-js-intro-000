@@ -13,6 +13,6 @@ function addElementToEndOfArray(A,E){
   return Solution
 }
 function destructivelyAddElementToEndOfArray(A,E){
-  E.Push(A)
+  A.push(E)
   return A
 }
