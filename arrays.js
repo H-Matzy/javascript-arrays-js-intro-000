@@ -20,6 +20,6 @@ function accessElementInArray(A,I){
   return A[I]
 }
 function destructivelyRemoveElementFromBeginningOfArray(A){
-  A.shift
+  A.shift()
   return A
 }
