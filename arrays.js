@@ -7,5 +7,6 @@ return Solution;
 function destructivelyAddElementToBeginningOfArray(A,E){
 var Solution = [E];
 Solution = [E,...A]
+A = Solution
 return Solution
 }
