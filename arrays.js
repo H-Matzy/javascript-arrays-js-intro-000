@@ -6,7 +6,7 @@ return Solution;
 }
 function destructivelyAddElementToBeginningOfArray(A,E){
 var Solution = [E];
-Solution.push(A);
+Solution.push(`A`);
 return Solution;
 
 }
