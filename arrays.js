@@ -5,8 +5,7 @@ var Solution = [E,...A];
 return Solution;
 }
 function destructivelyAddElementToBeginningOfArray(A,E){
-var Solution = [A]
-Solution.push(E)
-
+var Solution = [E];
+Solution = [E,...A]
 return Solution
 }
