@@ -8,3 +8,7 @@ function destructivelyAddElementToBeginningOfArray(A,E){
 A.unshift(E)
 return A
 }
+function addElementToEndOfArray(A,E){
+  var Solution = [A,...E]
+  return Solution
+}
