@@ -27,3 +27,7 @@ function removeElementFromBeginningOfArray(A){
   Solution = A.slice(1)
   return Solution
 }
+function destructivelyRemoveElementFromEndOfArray(A){
+  A.pop()
+  Return A
+}
